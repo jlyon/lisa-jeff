@@ -28,7 +28,7 @@ $('#nav .navbar-nav li>a').click(function(){
 
 /* stamen maps */
 var map = new L.Map('map', {
-    center: new L.LatLng(38.3358704,-122.80499036),
+    center: new L.LatLng(38.3358704,-123.40499036),
     zoom: 9,
     scrollWheelZoom: false
 });

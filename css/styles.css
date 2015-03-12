@@ -11,7 +11,8 @@ body {
 
 
 p,
-td {
+td,
+.modal li {
   font-size: 1.3em;
 }
 
@@ -32,16 +33,17 @@ h2.section-title,
 h2.modal-title,
 .lodging h3 {
   font-family: "madawaska",serif;
+  color: #00856A;
 }
 
-h2.section-title,
-h2.modal-title {
+h2.section-title{
   margin-bottom: 1em;
 }
 
 .lodging h3 {
   text-transform: uppercase;
   color: #777;
+  margin-top: 2em;
 }
 
 .script {
@@ -374,7 +376,7 @@ section {
   height: 100px;
   line-height: 100px;
   width: 100%;
-  background-color:rgba(69,69,69,.8);
+  background-color:rgba(69,69,69,1);
   color: white;
   font-size: 2em;
   font-family: "zebrawood-std-fill",serif;
