@@ -68,6 +68,30 @@ h2.section-title{
   font-family: "zebrawood-std-fill",serif;
 }
 
+
+.lodging {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
