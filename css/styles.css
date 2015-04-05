@@ -441,3 +441,66 @@ section {
 	min-height:270px;
     max-height:270px;
 }
+
+
+
+/* Mobile responsive */
+@media (max-width: 400px) {
+
+  .header {
+    height: 500px;
+  }
+
+  .header .top-wrapper {
+    padding-top: 50px;
+  }
+
+  /*.top-wrapper {
+    padding-top: 30px;
+  }*/
+
+  .top-wrapper .top {
+    max-width: 310px;
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .header .top .big-amp {
+    font-size: 75px;
+    width: 310px;
+    padding-top: 10px;
+  }
+
+  .map-text {
+    padding: 20px 20px;
+  }
+
+  .header .top .name {
+    font-size: 55px;
+    padding-top: 10px;
+  }
+
+  .header .top .tagline {
+    font-size: 35px;
+  }
+
+  .header .date {
+    margin-top: 5px;
+  }
+  .header .top-photo {
+    top: 425px;
+  }
+
+
+  .activities .item-text {
+    font-size: 1.75em;
+  }
+
+}
+
+
+@media (max-width: 530px) {
+  .hide-small {
+    display: none;
+  }
+}
